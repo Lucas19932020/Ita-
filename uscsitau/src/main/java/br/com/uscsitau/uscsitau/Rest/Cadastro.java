@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("Cadastro")
 public class Cadastro {
 
+		private final static List<String> PALAVRAS = Arrays.asList("Hoje", "Amanhã", "Ontem", "Gustavinho");
+		
+	
 		@GetMapping
 			public Integer getRandomNuber() {
 				return new Random().nextInt(Integer.MAX_VALUE);
