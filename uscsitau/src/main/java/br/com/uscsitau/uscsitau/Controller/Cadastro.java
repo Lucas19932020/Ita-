@@ -1,4 +1,4 @@
-package br.com.uscsitau.uscsitau.Rest;
+package br.com.uscsitau.uscsitau.Controller;
 
 import java.util.Arrays;
 import java.util.List;
