@@ -1,4 +1,4 @@
-package br.com.uscsitau.uscsitau.Controller;
+package br.com.uscsitau.uscsitau.models;
 
 import java.util.Arrays;
 import java.util.List;

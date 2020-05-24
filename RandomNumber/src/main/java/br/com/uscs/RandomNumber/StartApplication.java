@@ -1,4 +1,4 @@
-package br.com.uscsitau.uscsitau;
+package br.com.uscs.RandomNumber;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.data.cassandra.repository.config.EnableCassandraRepos
 
 @EnableCassandraRepositories
 @SpringBootApplication
-public class UscsitauApplication {
+public class StartApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UscsitauApplication.class, args);
+		SpringApplication.run(StartApplication.class, args);
 	}
 
 }
